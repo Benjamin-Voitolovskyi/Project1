@@ -116,7 +116,6 @@ private:
 	char humanSide, compSide;
 	int mode;
 public:
-	//Recomended size: 5x5
 	Hex():graph(7) {} //Hex constructor. You can change the size of board here. 
 	//It's really slow on 7x7...
 	void PrintBoard() { //function which prints the board
